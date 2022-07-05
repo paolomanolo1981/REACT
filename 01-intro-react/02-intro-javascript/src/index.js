@@ -1,2 +1,5 @@
-const arregla=new Array();
-console.log(arregla);
+function saludar(nombre){
+    return `Hola, ${nombre}`;
+}
+
+console.log(saludar("paolo"));
